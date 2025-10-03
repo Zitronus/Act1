@@ -1,0 +1,60 @@
+body {
+  background-image: url("moony.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid black;
+  font-size: 18px;
+  color: white;         
+  background: black;    
+  font-weight: bold;    
+}
+h1{
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+p {
+  font-size: 20px;
+  color: white;
+}
+footer {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+blockquote {
+  font-size: 18px;
+  color: white;
+  font-style: italic;
+  margin: 20px;
+  padding: 10px;
+  border-left: 4px solid white;
+}
+.intro-container {
+  max-width: 700px;   
+  margin: 50px;       
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 10px;
+}
+.glitch {
+  position: center;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
